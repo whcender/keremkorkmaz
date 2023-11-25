@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaTwitter, FaYoutube, FaVimeo, FaSpotify } fro
 
 const page = () => {
     return (
-        <div className='lg:w-[1200px] m-auto px-4'>
+        <div className='lg:w-[1200px] h-[500px] m-auto px-4'>
             <h4 className='font-semibold text-center'>İletişime Geçin</h4>
             <div className='w-[300px]  m-auto flex items-center flex-wrap justify-center mt-20'>
                 <div className='border w-max p-4 hover:bg-black hover:text-white'>
