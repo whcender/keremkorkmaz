@@ -35,7 +35,7 @@ const page = () => {
             </div>
             <div className='flex items-center justify-center mt-10 gap-5 max-lg:text-sm mb-10'>
                 <h5 className='font-bold'>Mail Adresim:</h5>
-                <p>keremkorkmaz@gmail.com</p>
+                <p>thekeremkorkmaz@gmail.com</p>
             </div>
             <Main />
 
