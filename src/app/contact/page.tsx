@@ -15,7 +15,7 @@ const page = () => {
                         <FaFacebook size={60} /></Link>
                 </div>
                 <div className='border w-max p-4 hover:bg-black hover:text-white'>
-                    <Link target="_blank" href={"https://www.facebook.com/thekeremkorkmaz"}>
+                    <Link target="_blank" href={"https://www.instagram.com/thekeremkorkmaz"}>
                         <FaInstagram size={60} /></Link>
                 </div>
                 <div className='border w-max p-4 hover:bg-black hover:text-white'>
