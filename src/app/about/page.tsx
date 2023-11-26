@@ -14,7 +14,7 @@ const page = () => {
             Yerel ve kendi internet radyosunda Radyo sunuculuğu ve yapımcı olarak yer aldı. Amatör olarak kısa film yapımı, podcast yapımı ve radyo tiyatrosu yapımları ile ilgileniyor.</p>
         </div>
 
-        <img src="https://img.imgyukle.com/2023/11/25/yxdkYQ.jpeg" className='w-[500px] clippedl-image' alt="kerem korkmaz radyo" />
+        <img src="/about.jpg" className='w-[500px] clippedl-image' alt="kerem korkmaz radyo" />
       </div>
       <Main />
     </div>
