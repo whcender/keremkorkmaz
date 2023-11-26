@@ -17,15 +17,15 @@ const page = () => {
                         <FaInstagram size={60} /></Link>
                 </div>
                 <div className='border w-max p-4 hover:bg-black hover:text-white'>
-                    <Link href={"https://www.facebook.com/thekeremkorkmaz"}>
+                    <Link href={"https://twitter.com/thekeremkorkmaz"}>
                         <FaTwitter size={60} /></Link>
                 </div>
                 <div className='border w-max p-4 hover:bg-black hover:text-white'>
-                    <Link href={"https://www.facebook.com/thekeremkorkmaz"}>
+                    <Link href={"https://www.youtube.com/@thekeremkorkmaz"}>
                         <FaYoutube size={60} /></Link>
                 </div>
                 <div className='border w-max p-4 hover:bg-black hover:text-white'>
-                    <Link href={"https://www.facebook.com/thekeremkorkmaz"}>
+                    <Link href={"https://vimeo.com/keremkorkmaz"}>
                         <FaVimeo size={60} /></Link>
                 </div>
                 <div className='border w-max p-4 hover:bg-black hover:text-white'>

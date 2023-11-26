@@ -11,8 +11,8 @@ const index = () => {
             <div className='gap-5 flex justify-center'>
                 <a target="_blank" href="https://www.facebook.com/thekeremkorkmaz"><FaFacebook size={23} /></a>
                 <a target="_blank" href="https://www.instagram.com/thekeremkorkmaz"><FaInstagram size={23} /></a>
-                <a target="_blank" href=""><FaTwitter size={23} /></a>
-                <a target="_blank" href=""><FaYoutube size={23} /></a>
+                <a target="_blank" href="https://twitter.com/thekeremkorkmaz"><FaTwitter size={23} /></a>
+                <a target="_blank" href="https://www.youtube.com/@thekeremkorkmaz"><FaYoutube size={23} /></a>
             </div>
         </div>
     )
