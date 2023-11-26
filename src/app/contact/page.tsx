@@ -9,27 +9,27 @@ const page = () => {
             <h4 className='font-semibold text-center'>İletişime Geçin</h4>
             <div className='w-[300px]  m-auto flex items-center flex-wrap justify-center mt-20'>
                 <div className='border w-max p-4 hover:bg-black hover:text-white'>
-                    <Link href={"https://www.facebook.com/thekeremkorkmaz"}>
+                    <Link target="_blank" href={"https://www.facebook.com/thekeremkorkmaz"}>
                         <FaFacebook size={60} /></Link>
                 </div>
                 <div className='border w-max p-4 hover:bg-black hover:text-white'>
-                    <Link href={"https://www.facebook.com/thekeremkorkmaz"}>
+                    <Link target="_blank" href={"https://www.facebook.com/thekeremkorkmaz"}>
                         <FaInstagram size={60} /></Link>
                 </div>
                 <div className='border w-max p-4 hover:bg-black hover:text-white'>
-                    <Link href={"https://twitter.com/thekeremkorkmaz"}>
+                    <Link target="_blank" href={"https://twitter.com/thekeremkorkmaz"}>
                         <FaTwitter size={60} /></Link>
                 </div>
                 <div className='border w-max p-4 hover:bg-black hover:text-white'>
-                    <Link href={"https://www.youtube.com/@thekeremkorkmaz"}>
+                    <Link target="_blank" href={"https://www.youtube.com/@thekeremkorkmaz"}>
                         <FaYoutube size={60} /></Link>
                 </div>
                 <div className='border w-max p-4 hover:bg-black hover:text-white'>
-                    <Link href={"https://vimeo.com/keremkorkmaz"}>
+                    <Link target="_blank" href={"https://vimeo.com/keremkorkmaz"}>
                         <FaVimeo size={60} /></Link>
                 </div>
                 <div className='border w-max p-4 hover:bg-black hover:text-white'>
-                    <Link href={"https://www.facebook.com/thekeremkorkmaz"}>
+                    <Link target="_blank" href={"https://www.facebook.com/thekeremkorkmaz"}>
                         <FaSpotify size={60} /></Link>
                 </div>
             </div>
