@@ -20,10 +20,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="font-popins">
-        <Navbar />
-        {children}
-        <Footer />
-        </body>
+        <div className='bg-yellow-400 min-h-[100vh] pt-11'>
+          <Navbar />
+          {children}
+          <Footer />
+        </div>
+      </body>
     </html>
   )
 }
