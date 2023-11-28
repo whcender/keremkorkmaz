@@ -9,7 +9,7 @@ const index = () => {
         <Link href={"/"}>
         <h1 className='text-3xl font-black max-lg:text-2xl'>Kerem Korkmaz</h1></Link>
         <FaFilm size={30}/>
-        <p className='text-gray-900 uppercase text-sm max-lg:text-xs font-semibold'>Yazar - Senarist - Radyocu - Yönetmen</p>
+        <p className='text-gray-900 uppercase text-sm max-lg:text-xs font-semibold'>Yazar - Senarist - Yönetmen - Radyocu</p>
     </div>
   )
 }
