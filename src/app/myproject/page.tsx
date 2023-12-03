@@ -1,8 +1,11 @@
 import React from 'react'
+import Projects from '@/components/Projects'
 
 const page = () => {
   return (
-    <div>page</div>
+    <div>
+      <Projects />
+    </div>
   )
 }
 

@@ -1,0 +1,82 @@
+{
+    "kitaplar": [
+      {
+        "isim": "Kitap 1 Adı",
+        "link": "https://kitap1linki.com",
+        "fotoğraf": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg/300px-Gutenberg_Bible%2C_Lenox_Copy%2C_New_York_Public_Library%2C_2009._Pic_01.jpg",
+        "açıklama": "Kitap 1 hakkında kısa bir açıklama."
+      },
+      {
+        "isim": "Kitap 2 Adı",
+        "link": "https://kitap2linki.com",
+        "fotoğraf": "https://kitap2resmi.com",
+        "açıklama": "Kitap 2 hakkında kısa bir açıklama."
+      },
+      {
+        "isim": "Kitap 3 Adı",
+        "link": "https://kitap3linki.com",
+        "fotoğraf": "https://kitap3resmi.com",
+        "açıklama": "Kitap 3 hakkında kısa bir açıklama."
+      }
+    ],
+    "kisa_filmler": [
+      {
+        "isim": "Kısa Film 1 Adı",
+        "link": "https://kisafilm1linki.com",
+        "resim": "https://kisafilm1resmi.com",
+        "açıklama": "Kısa Film 1 hakkında kısa bir açıklama."
+      },
+      {
+        "isim": "Kısa Film 2 Adı",
+        "link": "https://kisafilm2linki.com",
+        "resim": "https://kisafilm2resmi.com",
+        "açıklama": "Kısa Film 2 hakkında kısa bir açıklama."
+      },
+      {
+        "isim": "Kısa Film 3 Adı",
+        "link": "https://kisafilm3linki.com",
+        "resim": "https://kisafilm3resmi.com",
+        "açıklama": "Kısa Film 3 hakkında kısa bir açıklama."
+      },
+      {
+        "isim": "Kısa Film 4 Adı",
+        "link": "https://kisafilm4linki.com",
+        "resim": "https://kisafilm4resmi.com",
+        "açıklama": "Kısa Film 4 hakkında kısa bir açıklama."
+      },
+      {
+        "isim": "Kısa Film 5 Adı",
+        "link": "https://kisafilm5linki.com",
+        "resim": "https://kisafilm5resmi.com",
+        "açıklama": "Kısa Film 5 hakkında kısa bir açıklama."
+      }
+    ],
+    "blog_yazilari": [
+      {
+        "isim": "Blog Yazısı 1 Adı",
+        "link": "https://blog1linki.com",
+        "açıklama": "Blog Yazısı 1 hakkında kısa bir açıklama."
+      },
+      {
+        "isim": "Blog Yazısı 2 Adı",
+        "link": "https://blog2linki.com",
+        "açıklama": "Blog Yazısı 2 hakkında kısa bir açıklama."
+      },
+      {
+        "isim": "Blog Yazısı 3 Adı",
+        "link": "https://blog3linki.com",
+        "açıklama": "Blog Yazısı 3 hakkında kısa bir açıklama."
+      },
+      {
+        "isim": "Blog Yazısı 4 Adı",
+        "link": "https://blog4linki.com",
+        "açıklama": "Blog Yazısı 4 hakkında kısa bir açıklama."
+      },
+      {
+        "isim": "Blog Yazısı 5 Adı",
+        "link": "https://blog5linki.com",
+        "açıklama": "Blog Yazısı 5 hakkında kısa bir açıklama."
+      }
+    ]
+  }
+  
