@@ -32,7 +32,12 @@ const Index: React.FC = () => {
                             <a href={kitap.link} target="_blank" rel="noopener noreferrer">
                                 <img src={kitap.fotoğraf} alt={kitap.isim} className="mb-2 rounded-md w-[170px]" />
                             </a>
-                            <p>{kitap.açıklama}</p>
+                            <p>{kitap.açıklama.split('\n').map((line, lineIndex) => (
+                                <React.Fragment key={lineIndex}>
+                                    {line}
+                                    <br />
+                                </React.Fragment>
+                            ))}</p>
                         </div>
                     ))}
                 </div>
@@ -48,7 +53,12 @@ const Index: React.FC = () => {
                             <a href={film.link} target="_blank" rel="noopener noreferrer">
                                 <img src={film.resim} alt={film.isim} className="mb-2 rounded-md" />
                             </a>
-                            <p>{film.açıklama}</p>
+                            <p>{film.açıklama.split('\n').map((line, lineIndex) => (
+                                <React.Fragment key={lineIndex}>
+                                    {line}
+                                    <br />
+                                </React.Fragment>
+                            ))}</p>
                         </div>
                     ))}
                 </div>

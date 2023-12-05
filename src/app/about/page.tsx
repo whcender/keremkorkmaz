@@ -1,5 +1,4 @@
 import React from 'react'
-import Main from '@/components/Main';
 
 const page = () => {
   return (
@@ -16,7 +15,6 @@ const page = () => {
 
         <img src="/about.jpg" className='w-[400px] object-cover  clippedl-image' alt="kerem korkmaz radyo" />
       </div>
-      <Main />
     </div>
   )
 }

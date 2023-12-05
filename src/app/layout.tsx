@@ -5,6 +5,9 @@ import './globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
+import Main from '@/components/Main'
+
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -22,6 +25,7 @@ export default function RootLayout({
       <body className="font-popins">
         <div className='bg-yellow-400 min-h-[100vh] pt-11 pb-6'>
           <Navbar />
+          <Main />
           {children}
           <Footer />
         </div>

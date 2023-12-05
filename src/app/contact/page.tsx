@@ -3,7 +3,6 @@ import React from 'react'
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube, FaVimeo, FaSpotify, FaImdb  } from "react-icons/fa";
 import { ImSoundcloud2 } from "react-icons/im";
 import { SiMedium } from "react-icons/si";
-import Main from '@/components/Main';
 
 const page = () => {
     return (
@@ -51,7 +50,7 @@ const page = () => {
                 <h5 className='font-bold'>Mail Adresim:</h5>
                 <p>thekeremkorkmaz@gmail.com</p>
             </div>
-            <Main />
+           
 
         </div>
     )
