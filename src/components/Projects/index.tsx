@@ -65,7 +65,7 @@ const Index: React.FC = () => {
             </section>
 
             <section>
-                <h2 className="text-3xl font-bold my-4">Blog Yazıları</h2>
+                <h2 className="text-3xl font-bold my-4">Eğitimler</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-md:px-6">
                     {data.blog_yazilari && data.blog_yazilari.length === 0 && <div>Yakında Gelicek.</div>}
                     {data.blog_yazilari.map((blog: Product, index: number) => (
@@ -99,7 +99,7 @@ const Index: React.FC = () => {
                 </div>
             </section>
             <section>
-                <h2 className="text-3xl font-bold my-4">Şiirler</h2>
+                <h2 className="text-3xl font-bold my-4">Stand-up Gösterileri</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-md:px-6">
                     {data.siirler && data.siirler.length === 0 && <div>Yakında Gelicek.</div>}
                     {data.siirler.map((blog: Product, index: number) => (
