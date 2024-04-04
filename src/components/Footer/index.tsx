@@ -6,7 +6,7 @@ const index = () => {
         <div className='flex flex-col lg:items-center gap-3 font-popins mt-9 px-3'>
             <div className='h-[2px] w-24 bg-black'></div>
             <h2 className='font-bold text-2xl max-lg:text-xl'>Kerem Korkmaz</h2>
-            <p className='max-lg:text-sm opacity-85 text-base'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cupiditate amet voluptatem odio necessitatibus.</p>
+            <p className='max-lg:text-sm opacity-85 text-base'>Tüm hakları Kerem Korkmaza aittir.</p>
             <div className='h-[2px] w-40 bg-black max-lg:hidden'></div>
             <div className='gap-5 flex justify-center'>
                 <a className='text-blue-600' target="_blank" href="https://www.facebook.com/thekeremkorkmaz"><FaFacebook size={23} /></a>
