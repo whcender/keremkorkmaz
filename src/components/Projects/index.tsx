@@ -25,7 +25,7 @@ const Index: React.FC = () => {
             <section>
                 <h2 className="text-3xl font-bold mb-4">Kitaplar</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-md:px-6">
-                    {data.kitaplar && data.kitaplar.length === 0 && <div>Yakında Gelicek.</div>}
+                    {data.kitaplar && data.kitaplar.length === 0 && <div>Yakında Gelecek.</div>}
                     {data.kitaplar.map((kitap: Product, index: number) => (
                         <div className="bg-white p-4 rounded-md shadow-md" key={index}>
                             <h3 className="text-xl font-semibold mb-2">{kitap.isim}</h3>
@@ -46,7 +46,7 @@ const Index: React.FC = () => {
             <section>
                 <h2 className="text-3xl font-bold my-4">Kısa Filmler</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-md:px-6">
-                    {data.kisa_filmler && data.kisa_filmler.length === 0 && <div>Yakında Gelicek.</div>}
+                    {data.kisa_filmler && data.kisa_filmler.length === 0 && <div>Yakında Gelecek.</div>}
                     {data.kisa_filmler.map((film: Product, index: number) => (
                         <div className="bg-white p-4 rounded-md shadow-md  " key={index}>
                             <h3 className="text-xl font-semibold mb-2">{film.isim}</h3>
@@ -67,7 +67,7 @@ const Index: React.FC = () => {
             <section>
                 <h2 className="text-3xl font-bold my-4">Eğitimler</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-md:px-6">
-                    {data.blog_yazilari && data.blog_yazilari.length === 0 && <div>Yakında Gelicek.</div>}
+                    {data.blog_yazilari && data.blog_yazilari.length === 0 && <div>Yakında Gelecek.</div>}
                     {data.blog_yazilari.map((blog: Product, index: number) => (
                         <div className="bg-white p-4 rounded-md shadow-md" key={index}>
                             <h3 className="text-xl font-semibold mb-2">{blog.isim}</h3>
@@ -87,7 +87,7 @@ const Index: React.FC = () => {
             <section>
                 <h2 className="text-3xl font-bold my-4">Podcastler</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-md:px-6">
-                    {data.podcastler && data.podcastler.length === 0 && <div>Yakında Gelicek.</div>}
+                    {data.podcastler && data.podcastler.length === 0 && <div>Yakında Gelecek.</div>}
                     {data.podcastler.map((blog: Product, index: number) => (
                         <div className="bg-white p-4 rounded-md shadow-md" key={index}>
                             <h3 className="text-xl font-semibold mb-2">{blog.isim}</h3>
@@ -101,7 +101,7 @@ const Index: React.FC = () => {
             <section>
                 <h2 className="text-3xl font-bold my-4">Stand-up Gösterileri</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-md:px-6">
-                    {data.siirler && data.siirler.length === 0 && <div>Yakında Gelicek.</div>}
+                    {data.siirler && data.siirler.length === 0 && <div>Yakında Gelecek.</div>}
                     {data.siirler.map((blog: Product, index: number) => (
                         <div className="bg-white p-4 rounded-md shadow-md" key={index}>
                             <h3 className="text-xl font-semibold mb-2">{blog.isim}</h3>
